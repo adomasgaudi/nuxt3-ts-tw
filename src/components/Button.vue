@@ -4,8 +4,4 @@
   </button>
 </template>
 
-<style>
-  button {
-    color: red;
-  }
-</style>
+<style></style>
