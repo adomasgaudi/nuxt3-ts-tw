@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-import { base } from "../../utils/tools/baseHOC";
+import { base } from "../utils/tools/baseHOC";
 import { Contain } from "./Contain";
 
 const FiftyFiftyRight = ({ children, ...props }: any) => {

@@ -2,7 +2,7 @@ import React from "react";
 import NextLink from "next/link";
 import tw from "twin.macro";
 import Image from "next/image";
-import { base } from "../../utils/tools/baseHOC";
+import { base } from "../utils/tools/baseHOC";
 import { im } from "../../../static/img";
 
 export const Link = ({ children, href, cls }: any) => (

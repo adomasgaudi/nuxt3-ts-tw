@@ -2,8 +2,8 @@ import React, { FC, useEffect, useState } from "react";
 import styled from "styled-components";
 import "twin.macro";
 import tw from "twin.macro";
-import { useAppDispatch, useAppSelector } from "../../utils/state/hooks";
-import { changeScroll } from "../../utils/state/ui.slice";
+import { useAppDispatch, useAppSelector } from "../utils/state/hooks";
+import { changeScroll } from "../utils/state/ui.slice";
 import { useWindow } from "../../utils/tools/useWindow";
 import { Link, Logo, NavLink } from "./Header.styles";
 

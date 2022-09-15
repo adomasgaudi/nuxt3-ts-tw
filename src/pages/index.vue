@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Contain>
+    <Contain pad="">
       <h1 class="text-6xl">oh hi Mark</h1>
       <p class="text-sm">
         oh hi Lorem ipsum dolor sit, amet consectetur adipisicing elit.

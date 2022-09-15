@@ -1,5 +1,4 @@
-import React from "react";
-
+<script setup>
 export const renderHOC = (DefComp: any, propsBASE: any) => {
   const MyComponent = ({ ...propsNEW }) => {
     const propsCOMBO: any = {};
@@ -27,3 +26,5 @@ export const renderHOC = (DefComp: any, propsBASE: any) => {
 
   return MyComponent;
 };
+</script>
+<template></template>
